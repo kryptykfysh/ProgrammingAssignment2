@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# The following function calculates the mean of the special "vector"
+# The following function calculates the inverse of the special "vector"
 # created with the above function. However, it first checks to see if the
 # inverse has already been calculated. If so, it `get`s the inverse from the
 # cache and skips the computation. Otherwise, it calculates the inverse of
